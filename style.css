@@ -1,0 +1,75 @@
+body {
+  background-image: url(images/background.jpg);
+  box-sizing: border-box;
+  background-size: 100%;
+}
+
+header > img{
+  margin-top: 100px;
+  width: 250px;
+}
+
+header > h1{
+  color:#00dd00;
+  font-size: 1,5em;
+  font-weight: bold;
+  font-family: 'Poppins';
+  margin: 0;
+}
+
+.container{
+  background-color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  width: 1200px;
+  height: 850px;
+  margin: 20px auto 10px auto;
+  border-radius: 2%;
+}
+
+nav{
+  background-color: #00dd00;
+  padding: 10px;
+  margin: auto 12% 15px 12%;
+}
+
+section{
+  text-align: left;
+  margin: auto 12% auto 12%;
+  color: white;
+  font-family: 'Poppins';s
+}
+
+.monopattino{
+  margin: auto;
+  display: inline-block;
+}
+
+.monopattino + div:before{
+  content: "\21A6";
+}
+
+.ricarica1, .ricarica2, .ricarica3{
+  margin-bottom: 15px;
+
+}
+
+.ricarica1{
+  background-color: orange;
+  width: 40%;
+  height: 30px;
+  border-radius: 5px;
+}
+
+.ricarica2{
+  background-color: green;
+  width: 60%;
+  height: 30px;
+  border-radius: 5px;
+}
+
+.ricarica3{
+  background-color: red;
+  width: 20%;
+  height: 30px;
+  border-radius: 5px;
+}
